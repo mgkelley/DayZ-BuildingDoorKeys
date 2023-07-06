@@ -6,9 +6,9 @@ Each key is assigned a specific building type when spawned.
 * Includes Admin keys that can be spawned with an admin tool, enabling any door to be unlocked and any building to be unpaired from a key.
 * DayZ vanilla Lockpicks do NOT work on a door locked by these keys or any door of a building that has been paired to a key.
 * Door damage can be disabled or increased to prevent raiding or increase amount of damage required to break a door lock.
-* DayZ vanilla Territory Flag Pole can be enabled to create a refresh area at a paired building. When the flag lifetime expires from being lowered by the Central Economy System in Dayz, the building will be unpaired from its key, all doors unlocked and the flag pole deleted.
-* Key types are completely configurable in a .json file stored in the 'ServerProfile' folder. Vanilla and modded buildings can be configured to support keys and the Territory Flag Pole position and rotation relative the the building can be set.
-* Each configured key can be set to reference a predefined spawnable key type. Each spawnable key type can have unique usage, tier and nominal settings.
+* DayZ vanilla _Territory Flag Pole_ can be enabled to create a refresh area at a paired building. When the flag lifetime expires from being lowered by the Central Economy System in Dayz, the building will be unpaired from its key, all doors unlocked and the flag pole deleted.
+* Key types are completely configurable in a .json file stored in the 'ServerProfile' folder. Vanilla and modded buildings can be configured to support keys and the _Territory Flag Pole_ position and rotation relative the the building can be set.
+* Each configured key can be set to reference a predefined _spawnable_type_. Each _spawnable_type_ can have unique <usage>, <tier> and <nominal> settings.
 
 There are _Weapons, Weapons Attachments, Clothing, Clothing Accessories, Consumables, Medical, Vehicles, Vehicle Parts, Components_ and _Building Supplies traders_.
 

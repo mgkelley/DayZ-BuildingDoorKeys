@@ -6,15 +6,9 @@ Each key is assigned a specific building type when spawned.
 * Includes Admin keys that can spawned with an admin tool, enabling any door to unlocked and any building to be unpaired from a key.
 * DayZ vanilla Lockpicks do NOT work on a door locked by these keys or any door of a building that has been paired to a key.
 * Door damage can be disabled or increased to prevent raiding or increase amount of damage required to break door lock.
-
-* Topolin
-* Sitnik
-* Sitnik Black Market
-* Kulno
-* North Polana
-* Zaleskie Black Market
-* South West Hunter (North West Of Swarog)
-* Central (South Of Lipina)
+* DayZ vanilla Territory Flag pole can be enabled to create a refresh area at a paired building. When the flag lifetime expires from being lowered by Central Economy system in Dayz, the building will be unpaired from its key, all doors unlocked and the flag pole deleted.
+* Key types are completely configurable in a .json file stored in the 'ServerProfile' folder. Vanilla and modded buildings can be configured to support keys and the Territory Flag Pole position and rotation relative the the building can be set.
+* Each configured key can be set to reference a predefined spawnable key type. Each spawnable key type can have unique usage, tier and nominal setting.
 
 There are _Weapons, Weapons Attachments, Clothing, Clothing Accessories, Consumables, Medical, Vehicles, Vehicle Parts, Components_ and _Building Supplies traders_.
 

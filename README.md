@@ -13,65 +13,71 @@ Each key is assigned a specific building type when spawned.
 ![](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/Proccess.png?raw=true)
 
 # BuildingKeys.json
-```"Version": 1,```
+```"Version"```
+
 Integer
 Do not change, used for automatic conversion of old settings.
 
 ```"UpdateFrequecy"```
+
 Float
 Update frequencey in seconds of the Building Key Manager.
 
 ```"LogBuildingTypesLoad"```
 ```"LogAction"```
 ```"LogActionConditions"```
+
 Bool
 Used to toggle output to log file.
 
 ```"EnableTerritoryFlag"```
+
 Bool
 * 0 = Disable automatic creation of territory flag when key paired with building.
 * 1 = Enable automatic creation of territory flag when key paired with building.
 
 ```"InitialFlagHeight"```
+
 Float
 Initial height of flag if territory flag pole enabled. Valid range is 0 thru 5. 0 is not recomended because DayZ central economy could run and trigger flag pole to be deleted and building unpaired from key.
 
 ```"DefaultFlagType"```
+
 String
 Default = "Flag_DayZ" .Class of flag to be attached to flag pole.
 
 
 # Valid flag classes
-class Flag_Chernarus extends Flag_Base {};
-class Flag_Chedaki extends Flag_Base {};
-class Flag_NAPA extends Flag_Base {};
-class Flag_CDF extends Flag_Base {};
-class Flag_Livonia extends Flag_Base {};
-class Flag_Altis extends Flag_Base {};
-class Flag_SSahrani extends Flag_Base {};
-class Flag_NSahrani extends Flag_Base {};
-class Flag_DayZ extends Flag_Base {};
-class Flag_LivoniaArmy extends Flag_Base {};
-class Flag_White extends Flag_Base {};
-class Flag_Bohemia extends Flag_Base {};
-class Flag_APA extends Flag_Base {};
-class Flag_UEC extends Flag_Base {};
-class Flag_Pirates extends Flag_Base {};
-class Flag_Cannibals extends Flag_Base {};
-class Flag_Bear extends Flag_Base {};
-class Flag_Wolf extends Flag_Base {};
-class Flag_BabyDeer extends Flag_Base {};
-class Flag_Rooster extends Flag_Base {};
-class Flag_LivoniaPolice extends Flag_Base {};
-class Flag_CMC extends Flag_Base {};
-class Flag_TEC extends Flag_Base {};
-class Flag_CHEL extends Flag_Base {};
-class Flag_Zenit extends Flag_Base {};
-class Flag_HunterZ extends Flag_Base {};
-class Flag_BrainZ extends Flag_Base {};
-class Flag_Rex extends Flag_Base {};
-class Flag_Zagorky extends Flag_Base {};
-class Flag_Crook extends Flag_Base {};
+Flag_Chernarus
+Flag_Chedaki
+Flag_NAPA
+Flag_CDF
+Flag_Livonia
+Flag_Altis
+Flag_SSahrani
+Flag_NSahrani
+Flag_DayZ
+Flag_LivoniaArmy
+Flag_White
+Flag_Bohemia
+Flag_APA
+Flag_UEC
+Flag_Pirates
+Flag_Cannibals
+Flag_Bear
+Flag_Wolf
+Flag_BabyDeer
+Flag_Rooster
+Flag_LivoniaPolice
+Flag_CMC
+Flag_TEC
+Flag_CHEL
+Flag_Zenit
+Flag_HunterZ
+Flag_BrainZ
+Flag_Rex
+Flag_Zagorky
+Flag_Crook
 
 : "Flag_DayZ",
     "DefaultFlagTexture": "dz\\gear\\camping\\Data\\Flag_DAYZ_co.paa",

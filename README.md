@@ -11,7 +11,7 @@ Each key is assigned a specific building type when spawned.
 * Each configured key can be set to reference a predefined _spawnable_type_. Each _spawnable_type_ can have unique usage, tier and nominal settings.
 
 ```diff
-text in green
++ text in green
 ```
 https://placehold.it/150/ffffff/ff0000?text=hello
 - ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`

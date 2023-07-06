@@ -1,7 +1,11 @@
 # DayZ-BuildingDoorKeys
 ![](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/BuildingDoorKeys.png?raw=true)
 
-Eight DayZ-Expansion compatible Trader areas for DayZ Livonia/Enoch map.
+Keys that can be paired to buildings, enabling all doors to be locked and unlocked.
+Each key is assigned a specific building type when spawned.
+Includes Admin keys that can spawned with an admin tool, enabling any door to unlocked and any building to be unpaired from a key.
+DayZ vanilla Lockpicks do work on a door locked by these keys or any door of a building that has been paired to a key.
+Door damage can be disabled or increased to prevent raiding or increase amount of damage to break door lock.
 
 * Topolin
 * Sitnik

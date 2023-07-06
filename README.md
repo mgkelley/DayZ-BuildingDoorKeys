@@ -12,72 +12,61 @@ Each key is assigned a specific building type when spawned.
 
 ![](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/Proccess.png?raw=true)
 
-# BuildingKeys.json
-```"Version"```
-
-Integer
-Do not change, used for automatic conversion of old settings.
-
-```"UpdateFrequecy"```
-
-Float
-Update frequencey in seconds of the Building Key Manager.
-
+# Building.json
+```"Version"```<br>
+Integer<br>
+Do not change, used for automatic conversion of old settings.<br><br>
+```"UpdateFrequecy"```<br>
+Float<br>
+Update frequencey in seconds of the Building Key Manager.<br><br>
 ```"LogBuildingTypesLoad"```
 ```"LogAction"```
-```"LogActionConditions"```
-
-Bool
-Used to toggle output to log file.
-
-```"EnableTerritoryFlag"```
-
-Bool
+```"LogActionConditions"```<br>
+Bool<br>
+Used to toggle output to log file.<br><br>
+```"EnableTerritoryFlag"```<br>
+Bool<br>
 * 0 = Disable automatic creation of territory flag when key paired with building.
 * 1 = Enable automatic creation of territory flag when key paired with building.
-
-```"InitialFlagHeight"```
-
-Float
-Initial height of flag if territory flag pole enabled. Valid range is 0 thru 5. 0 is not recomended because DayZ central economy could run and trigger flag pole to be deleted and building unpaired from key.
-
-```"DefaultFlagType"```
-
-String
-Default = "Flag_DayZ" .Class of flag to be attached to flag pole.
-
+<br>
+```"InitialFlagHeight"```<br>
+Float<br>
+Initial height of flag if territory flag pole enabled. Valid range is 0 thru 5. 0 is not recomended because DayZ central economy could run and trigger flag pole to be deleted and building unpaired from key.<br><br>
+```"DefaultFlagType"```<br>
+String<br>
+Default = "Flag_DayZ" .Class of flag to be attached to flag pole.<br><br>
 
 # Valid flag classes
-Flag_Chernarus
-Flag_Chedaki
-Flag_NAPA
-Flag_CDF
-Flag_Livonia
-Flag_Altis
-Flag_SSahrani
-Flag_NSahrani
-Flag_DayZ
-Flag_LivoniaArmy
-Flag_White
-Flag_Bohemia
-Flag_APA
-Flag_UEC
-Flag_Pirates
-Flag_Cannibals
-Flag_Bear
-Flag_Wolf
-Flag_BabyDeer
-Flag_Rooster
-Flag_LivoniaPolice
-Flag_CMC
-Flag_TEC
-Flag_CHEL
-Flag_Zenit
-Flag_HunterZ
-Flag_BrainZ
-Flag_Rex
-Flag_Zagorky
-Flag_Crook
+Flag_Chernarus<br>
+Flag_Chedaki<br>
+Flag_NAPA<br>
+Flag_CDF<br>
+Flag_Livonia<br>
+Flag_Altis<br>
+Flag_SSahrani<br>
+Flag_NSahrani<br>
+Flag_DayZ<br>
+Flag_LivoniaArmy<br>
+Flag_White<br>
+Flag_Bohemia<br>
+Flag_APA<br>
+Flag_UEC<br>
+Flag_Pirates<br>
+Flag_Cannibals<br>
+Flag_Bear<br>
+Flag_Wolf<br>
+Flag_BabyDeer<br>
+Flag_Rooster<br>
+Flag_LivoniaPolice<br>
+Flag_CMC<br>
+Flag_TEC<br>
+Flag_CHEL<br>
+Flag_Zenit<br>
+Flag_HunterZ<br>
+Flag_BrainZ<br>
+Flag_Rex<br>
+Flag_Zagorky<br>
+Flag_Crook<br><br>
 
 : "Flag_DayZ",
     "DefaultFlagTexture": "dz\\gear\\camping\\Data\\Flag_DAYZ_co.paa",

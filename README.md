@@ -13,7 +13,7 @@ Each key is assigned a specific building type when spawned.
 ```diff
 + text in green
 ```
-https://placehold.it/150/ffffff/ff0000?text=hello
+https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/ff0000?text=hello
 - ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
 
   

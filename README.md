@@ -10,12 +10,7 @@ Each key is assigned a specific building type when spawned.
 * Key types are completely configurable in a .json file stored in the 'ServerProfile' folder. Vanilla and modded buildings can be configured to support keys and the _Territory Flag Pole_ position and rotation relative the the building can be set.
 * Each configured key can be set to reference a predefined _spawnable_type_. Each _spawnable_type_ can have unique usage, tier and nominal settings.
 
-```diff
-+ -! Warning !-
-```
-https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/ff0000?text=hello
-- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
-
+![](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/Keys.png?raw=true)
   
 
 There are _Weapons, Weapons Attachments, Clothing, Clothing Accessories, Consumables, Medical, Vehicles, Vehicle Parts, Components_ and _Building Supplies traders_.

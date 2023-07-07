@@ -61,7 +61,7 @@ Float
 <br>```MaxDoorHealth```<br>
 Float
 * 0 = Door damage disabled. Locks cant to broken.
-* 100000  Default, door lock will open after 330 5.56 rounds.
+* 100000 = Default, door lock will open after 330 5.56 rounds.
 
 <br>```DoorTypes```<br>
 Array<br>

@@ -44,7 +44,7 @@ Initial height of flag if territory flag pole enabled. Valid range is 0 thru 5. 
 <br>
 ```DefaultFlagType```<br>
 String<br>
-Default = "Flag_DayZ" .Class of flag to be attached to flag pole.
+Default = "Flag_DayZ" .Class of flag to be attached to flag pole. [Valid classes](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/FlagClasses.md)
 <br>
 <br>
 ```DefaultFlagTexture```<br>

@@ -13,59 +13,56 @@ Each key is assigned a specific building type when spawned.
 ![](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/Proccess.png?raw=true)
 
 # Building.json
-```"Version"```<br>
+```Version```<br>
 Integer<br>
 Do not change, used for automatic conversion of old settings.
 <br>
 <br>
-```"UpdateFrequecy"```<br>
+```UpdateFrequecy```<br>
 Float<br>
 Default is 10<br>
 Update frequencey in seconds of the Building Key Manager.
 <br>
 <br>
-```"LogBuildingTypesLoad"```<br>
-```"LogAction"```<br>
-```"LogActionConditions"```<br>
+```LogBuildingTypesLoad```<br>
+```LogAction```<br>
+```LogActionConditions```<br>
 Bool<br>
 Used to toggle output to log file.
 <br>
 <br>
-```"EnableTerritoryFlag"```<br>
+```EnableTerritoryFlag```<br>
 Bool
 * 0 = Disable automatic creation of territory flag when key paired with building.
 * 1 = Enable automatic creation of territory flag when key paired with building.
 
-
-```"InitialFlagHeight"```<br>
+<br>```InitialFlagHeight```<br>
 Float<br>
 Initial height of flag if territory flag pole enabled. Valid range is 0 thru 5. 0 is not recomended because DayZ central economy could _Immediatley_ run and trigger flag pole to be deleted and building unpaired from key.
 <br>
 <br>
-```"DefaultFlagType"```<br>
+```DefaultFlagType```<br>
 String<br>
 Default = "Flag_DayZ" .Class of flag to be attached to flag pole.
 <br>
 <br>
-```"DefaultFlagTexture"```<br>
+```DefaultFlagTexture```<br>
 String<br>
 Default = "dz\\gear\\camping\\Data\\Flag_DAYZ_co.paa". Texture to use for flag.
 <br>
 <br>
-```"TerritoryFlagLifeAccel"```<br>
+```TerritoryFlagLifeAccel```<br>
 Float
 * 0 = Flag will not lower.
 * 1 = Flag will lower at default Central Economy rate.
 * 40000 = Flag will lower in 2 minutes.
 
-
-```"MaxDoorHealth"```<br>
+<br>```MaxDoorHealth```<br>
 Float
 * 0 = Door damage disabled. Locks cant to broken.
 * 100000  Default, door lock will open after 330 5.56 rounds.
 
-
-```"DoorTypes"```<br>
+<br>```DoorTypes```<br>
 Array<br>
 List all valid building configurations and setting for their keys.
 ```

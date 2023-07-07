@@ -44,12 +44,12 @@ Initial height of flag if territory flag pole enabled. Valid range is 0 thru 5. 
 <br>
 ```DefaultFlagType```<br>
 String<br>
-Default = "Flag_DayZ" .Class of flag to be attached to flag pole. [Valid classes](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/FlagClasses.md)
+Default = _"Flag_DayZ"_ .Class of flag to be attached to flag pole. [Valid classes](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/FlagClasses.md)
 <br>
 <br>
 ```DefaultFlagTexture```<br>
 String<br>
-Default = "dz\\gear\\camping\\Data\\Flag_DAYZ_co.paa". Texture to use for flag.  [Valid Textures](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/FlagTextures.md)
+Default = _"dz\\gear\\camping\\Data\\Flag_DAYZ_co.paa"_. Texture to use for flag.  [Valid Textures](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/FlagTextures.md)
 <br>
 <br>
 ```TerritoryFlagLifeAccel```<br>
@@ -67,6 +67,7 @@ Float
 Array<br>
 List all valid key settings with their paired building class names.
 <br>
+{
 <br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;```KeyClass```<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;String<br>
@@ -103,4 +104,5 @@ List all valid key settings with their paired building class names.
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Vector<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Relative rotation of flag to building.
 <br>
+}
 <br>

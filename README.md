@@ -9,6 +9,9 @@ Each key is assigned a specific building type when spawned.
 * DayZ vanilla _Territory Flag Pole_ can be enabled to create a refresh area at a paired building. When the flag lifetime expires from being lowered by the Central Economy System in Dayz, the building will be unpaired from its key, all doors unlocked and the flag pole deleted.
 * Key types are completely configurable in _Building.json_ file stored in the 'ServerProfile' folder. Vanilla and modded buildings can be configured to support keys and the _Territory Flag Pole_ position and rotation relative the the building can be set.
 * Each configured key can be set to reference a predefined _spawnable_type_. Each _spawnable_type_ can have unique usage, tier and nominal settings.
+* Paired buildings are stored in _"ServerProfile//BuildingDoorKeys//Persistence//"_ so individual or all paired buildings can be wiped seperate from DayZ storage.
+<br>
+<br>
 
 ![](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/common/Proccess.png?raw=true)
 

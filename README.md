@@ -49,7 +49,7 @@ Default = "Flag_DayZ" .Class of flag to be attached to flag pole. [Valid classes
 <br>
 ```DefaultFlagTexture```<br>
 String<br>
-Default = "dz\\gear\\camping\\Data\\Flag_DAYZ_co.paa". Texture to use for flag.
+Default = "dz\\gear\\camping\\Data\\Flag_DAYZ_co.paa". Texture to use for flag.  [Valid Textures](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/FlagTextures.md)
 <br>
 <br>
 ```TerritoryFlagLifeAccel```<br>

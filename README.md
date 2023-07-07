@@ -13,7 +13,8 @@ Each key is assigned a specific building type when spawned.
 ![](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/Proccess.png?raw=true)
 
 # Building.json
-```Version```<br>
+```Version```
+<br> 
 Integer<br>
 Do not change, used for automatic conversion of old settings.
 <br>

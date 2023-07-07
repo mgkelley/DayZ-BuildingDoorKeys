@@ -71,7 +71,7 @@ List all valid key settings with their paired building class names.
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;```KeyClass```<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;String<br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Name of spawnable type to use for this key. Valid entries:<br>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"DoorKeyType1", "DoorKeyType2", "DoorKeyType3", "DoorKeyType4"
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;_"DoorKeyType1", "DoorKeyType2", "DoorKeyType3", "DoorKeyType4"_
 <br>
 <br>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;```KeyName```<br>

@@ -1,0 +1,22 @@
+# Valid Flag Textures
+flag_alti_co.paa
+flag_apa_co.paa
+flag_bear_co.paa
+flag_bi_co.paa
+.paa
+.paa
+.paa
+.paa
+.paa
+.paa
+.paa
+.paa
+.paa
+.paa
+.paa
+.paa
+.paa
+.paa
+.paa
+.paa
+.paa

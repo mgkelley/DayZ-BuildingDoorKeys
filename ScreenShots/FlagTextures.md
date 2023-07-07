@@ -1,5 +1,5 @@
 # Valid Flag Textures
-
+Flag texture entries has to be preceded by _"dz\\gear\\camping\\Data\\"_ 
 flag_alti_co.paa<br>
 flag_apa_co.paa<br>
 flag_bear_co.paa<br>

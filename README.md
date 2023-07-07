@@ -66,41 +66,41 @@ Float
 <br>```DoorTypes```<br>
 Array<br>
 List all valid building configurations and setting for their keys.
-```
-        ```KeyClass```<br>
-        String<br>
-        Name of spawnable type to use for this key. Valid entries:<br>
-        "DoorKeyType1", "DoorKeyType2", "DoorKeyType3", "DoorKeyType4"
 <br>
 <br>
-        ```KeyName```<br>
-        String<br>
-        Displayable name of the key.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```KeyClass```<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name of spawnable type to use for this key. Valid entries:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"DoorKeyType1", "DoorKeyType2", "DoorKeyType3", "DoorKeyType4"
 <br>
 <br>
-        ```BuildingClass```<br>
-        String<br>
-        Literal class name of the building this key can pair to.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```KeyName```<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Displayable name of the key.
 <br>
 <br>
-        ```BuildingName```<br>
-        String<br>
-        Displayable name of the building.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```BuildingClass```<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Literal class name of the building this key can pair to.
 <br>
 <br>
-        ```BuildingDescription```<br>
-        String<br>
-        Displayable description of the building.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```BuildingName```<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Displayable name of the building.
 <br>
 <br>
-        ```FlagOffset```<br>
-        Vector<br>
-        Relative offset from building pivot point to flag position.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```BuildingDescription```<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;String<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Displayable description of the building.
 <br>
 <br>
-        ```FlagOreintation```<br>
-        Vector<br>
-        Relative rotation of flag to building.
-```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```FlagOffset```<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vector<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Relative offset from building pivot point to flag position.
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```FlagOreintation```<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vector<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Relative rotation of flag to building.
 <br>
 <br>

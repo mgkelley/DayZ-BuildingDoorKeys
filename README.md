@@ -1,5 +1,5 @@
 # DayZ-BuildingDoorKeys
-![](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/BuildingDoorKeys.png?raw=true)
+![](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/common/BuildingDoorKeys.png?raw=true)
 
 Keys that can be paired to buildings, enabling all doors to be locked and unlocked.
 Each key is assigned a specific building type when spawned.
@@ -10,7 +10,7 @@ Each key is assigned a specific building type when spawned.
 * Key types are completely configurable in _Building.json_ file stored in the 'ServerProfile' folder. Vanilla and modded buildings can be configured to support keys and the _Territory Flag Pole_ position and rotation relative the the building can be set.
 * Each configured key can be set to reference a predefined _spawnable_type_. Each _spawnable_type_ can have unique usage, tier and nominal settings.
 
-![](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/Proccess.png?raw=true)
+![](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/common/Proccess.png?raw=true)
 
 # Building.json
 ```Version```
@@ -44,12 +44,12 @@ Initial height of flag if territory flag pole enabled. Valid range is 0 thru 5. 
 <br>
 ```DefaultFlagType```<br>
 String<br>
-Default = _"Flag_DayZ"_ .Class of flag to be attached to flag pole. [Valid classes](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/FlagClasses.md)
+Default = _"Flag_DayZ"_ .Class of flag to be attached to flag pole. [Valid classes](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/common/FlagClasses.md)
 <br>
 <br>
 ```DefaultFlagTexture```<br>
 String<br>
-Default = _"dz\\gear\\camping\\Data\\Flag_DAYZ_co.paa"_. Texture to use for flag.  [Valid Textures](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/ScreenShots/FlagTextures.md)
+Default = _"dz\\gear\\camping\\Data\\Flag_DAYZ_co.paa"_. Texture to use for flag.  [Valid Textures](https://github.com/mgkelley/DayZ-BuildingDoorKeys/blob/main/common/FlagTextures.md)
 <br>
 <br>
 ```TerritoryFlagLifeAccel```<br>
